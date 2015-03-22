@@ -1,0 +1,18 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define GTL_BUILT_AS_FRAMEWORK      1
+
+typedef NS_ENUM(NSUInteger, BBItemType) {
+    BBItemTypeNone,
+    BBItemTypeVideo,
+    BBItemTypePlaylist,
+};
+
